@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
+
+#dropdown-menu-9 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-9 .nav .link,
+#dropdown-menu-9 .dropdown-item {
+  font-size: 1em;
+  color: #ffffff;
+  font-family: "Roboto Slab", serif;
+}
+#dropdown-menu-9 .navbar,
+#dropdown-menu-9 .dropdown-menu {
+  background: #000000;
+}
+#dropdown-menu-9 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-9 .dropdown-menu a:hover,
+#dropdown-menu-9 .dropdown-menu a:focus {
+  background: #000000;
+}
+#dropdown-menu-9 .navbar-toggler {
+  color: #ffffff;
+}
+#features1-k P {
+  text-align: center;
+}

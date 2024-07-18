@@ -1,0 +1,133 @@
+.custom-head,
+.marquee-wrapper {
+  display: none;
+}
+@media (min-width: 800px) {
+  p {
+    text-align: justify;
+  }
+  .mbr-figure img {
+    width: 55% !important;
+  }
+  .navbar {
+    display: flex;
+    position: relative !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333 !important;
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+      0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+  }
+  .nav-item:hover {
+    background-color: #ffffff !important;
+    border-radius: 5px;
+    transition: all 0.5s;
+  }
+  .nav-item,
+  .nav-item .nav-link {
+    transition: all 0.5s;
+  }
+  .nav-item:hover .nav-link {
+    color: #333333 !important;
+    transition: all 0.5s;
+  }
+  .dropdown-menu {
+    background-color: #333333 !important;
+  }
+  .dropdown-item:hover {
+    background-color: #ffffff !important;
+    color: #333333 !important;
+  }
+  .marquee-wrapper {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .marquee-wrapper marquee {
+    font-size: 15px;
+    font-family: "Roboto Slab", serif;
+    color: #000000;
+  }
+  .navbar {
+    padding: 0px;
+  }
+  .nav-dropdown {
+    padding-top: 20px;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  .navbar .container {
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .container ul {
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .custom-head img {
+    height: 70px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #ffffff !important;
+  }
+  #logo {
+    height: 100px;
+  }
+  .custom-head .title {
+    font-size: 23px;
+    color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  .custom-head .title b {
+    font-size: 40px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+  }
+  .custom-head .title span {
+    font-size: 23px;
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+  }
+  .navbar-short {
+    position: fixed !important;
+    padding: 0px !important;
+  }
+  .navbar-short .custom-head,
+  .navbar-short .marquee-wrapper {
+    display: none;
+  }
+  .navbar-short .nav-dropdown {
+    padding-top: 0px;
+  }
+  .mbr-section {
+    margin-top: 30px;
+  }
+  .row {
+    margin: 20px 0px;
+  }
+}
+.marquee-download {
+  color: #033604;
+}
+.mbr_section {
+  margin-top: 70px;
+  padding-bottom: 3px;
+}
